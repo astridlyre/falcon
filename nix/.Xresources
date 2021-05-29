@@ -1,7 +1,7 @@
 *.foreground: #B4B4B9
-*.background: #020221
+*.background: #1b1b20
 *.color0:     #000004
-*.color8:     #020221
+*.color8:     #1b1b20
 *.color1:     #FF3600
 *.color9:     #FF8E78
 *.color2:     #718E3F

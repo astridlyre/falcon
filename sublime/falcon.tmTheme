@@ -9,9 +9,9 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#020221</string><!-- base02 -->
+		<string>#1b1b20</string><!-- base02 -->
 		<key>divider</key>
-		<string>#020221</string><!-- base02 -->
+		<string>#1b1b20</string><!-- base02 -->
 		<key>foreground</key>
 		<string>#586E75</string><!-- base01 -->
 		<key>selectionBackground</key>
@@ -25,7 +25,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#020221</string><!-- base03 -->
+				<string>#1b1b20</string><!-- base03 -->
 				<key>caret</key>
 				<string>#ddcfbf</string><!-- (nonstandard) ~base0 -->
 				<key>foreground</key>

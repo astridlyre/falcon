@@ -48,11 +48,11 @@ hi VertSplit guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi Folded guifg=#787882 ctermfg=243 guibg=#212127 ctermbg=235 gui=NONE cterm=NONE
 hi FoldColumn guifg=#787882 ctermfg=243 guibg=#212127 ctermbg=235 gui=NONE cterm=NONE
 hi SignColumn guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IncSearch guifg=#020221 ctermfg=0 guibg=#BFDAFF ctermbg=153 gui=Bold cterm=Bold
+hi IncSearch guifg=#1b1b20 ctermfg=0 guibg=#BFDAFF ctermbg=153 gui=Bold cterm=Bold
 hi LineNr guifg=#57575E ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#f0e1ce ctermfg=224 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi NonText guifg=#36363A ctermfg=237 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
-hi Normal guifg=#B4B4B9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
+hi NonText guifg=#36363A ctermfg=237 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
+hi Normal guifg=#B4B4B9 ctermfg=249 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
 hi PMenu guifg=#878791 ctermfg=102 guibg=#131323 ctermbg=233 gui=NONE cterm=NONE
 hi PMenuSel guifg=#000004 ctermfg=0 guibg=#FFC552 ctermbg=221 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -71,7 +71,7 @@ hi TabLineFill guifg=NONE ctermfg=NONE guibg=#212127 ctermbg=235 gui=NONE cterm=
 hi TabLineSel guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Title guifg=#cfc1b2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=#DFDFE5 ctermfg=254 guibg=#2D1078 ctermbg=4 gui=NONE cterm=NONE
-hi WildMenu guifg=#020221 ctermfg=0 guibg=#FFC552 ctermbg=221 gui=NONE cterm=NONE
+hi WildMenu guifg=#1b1b20 ctermfg=0 guibg=#FFC552 ctermbg=221 gui=NONE cterm=NONE
 hi Comment guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi Constant guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi String guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -104,7 +104,7 @@ hi Delimiter guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi link SpecialComment Special
 hi link Debug Special
 hi Underlined guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi Todo guifg=#020221 ctermfg=0 guibg=#cfc1b2 ctermbg=181 gui=Italic cterm=Italic
+hi Todo guifg=#1b1b20 ctermfg=0 guibg=#cfc1b2 ctermbg=181 gui=Italic cterm=Italic
 hi QuickFixLine guifg=#BFDAFF ctermfg=153 guibg=#36363A ctermbg=237 gui=NONE cterm=NONE
 hi Bold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi Italic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
@@ -313,8 +313,8 @@ hi htmlItalic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic cterm=I
 hi mkdCode guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi mkdCodeDelimiter guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link mkdHeading Delimiter
-hi healthSuccess guifg=#020221 ctermfg=0 guibg=#718E3F ctermbg=65 gui=NONE cterm=NONE
-hi healthError guifg=#020221 ctermfg=0 guibg=#FF3600 ctermbg=202 gui=NONE cterm=NONE
+hi healthSuccess guifg=#1b1b20 ctermfg=0 guibg=#718E3F ctermbg=65 gui=NONE cterm=NONE
+hi healthError guifg=#1b1b20 ctermfg=0 guibg=#FF3600 ctermbg=202 gui=NONE cterm=NONE
 hi NormalFloat guifg=NONE ctermfg=NONE guibg=#242430 ctermbg=235 gui=NONE cterm=NONE
 hi NormalFloatAlt guifg=NONE ctermfg=NONE guibg=#0A0A29 ctermbg=232 gui=NONE cterm=NONE
 hi NERDTreeCWD guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -479,7 +479,7 @@ hi GitGutterChange guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE ct
 hi GitGutterDelete guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignatureMarkText guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Terminal guifg=#B4B4B9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
+hi Terminal guifg=#B4B4B9 ctermfg=249 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
 hi titleEntry guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimCommentTitle guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi vimCommand guifg=#cfc1b2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -550,7 +550,7 @@ if exists('*term_setansicolors')
   let g:terminal_ansi_colors[5] = '#FF761A'
   let g:terminal_ansi_colors[6] = '#34bfa4'
   let g:terminal_ansi_colors[7] = '#B4B4B9'
-  let g:terminal_ansi_colors[8] = '#020221'
+  let g:terminal_ansi_colors[8] = '#1b1b20'
   let g:terminal_ansi_colors[9] = '#FF8E78'
   let g:terminal_ansi_colors[10] = '#B1BF75'
   let g:terminal_ansi_colors[11] = '#FFD392'
@@ -569,7 +569,7 @@ if has('nvim')
   let g:terminal_color_5 = '#FF761A'
   let g:terminal_color_6 = '#34bfa4'
   let g:terminal_color_7 = '#B4B4B9'
-  let g:terminal_color_8 = '#020221'
+  let g:terminal_color_8 = '#1b1b20'
   let g:terminal_color_9 = '#FF8E78'
   let g:terminal_color_10 = '#B1BF75'
   let g:terminal_color_11 = '#FFD392'

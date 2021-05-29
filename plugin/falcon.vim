@@ -41,8 +41,8 @@ function s:HandleInactiveBackground()
     hi NonText guifg=#36363a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
     hi Normal guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   else
-    hi NonText guifg=#36363a ctermfg=237 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
-    hi Normal guifg=#b4b4b9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
+    hi NonText guifg=#36363a ctermfg=237 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
+    hi Normal guifg=#b4b4b9 ctermfg=249 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
   endif
 
   if exists('+winhighlight') && g:falcon_inactive == 1
@@ -55,7 +55,7 @@ function s:HandleInactiveBackground()
   endif
 
   if g:falcon_background == 1
-    hi ActiveWindow guibg=#020221
+    hi ActiveWindow guibg=#1b1b20
     hi InactiveWindow guibg=#151521
   else
     hi ActiveWindow guibg=NONE
@@ -79,10 +79,10 @@ endfunction
 " goyo support
 function! s:GoyoEnter()
   " add in background colour
-  hi NonText guifg=#36363a ctermfg=237 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
-  hi Normal guifg=#b4b4b9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
-  hi ActiveWindow guibg=#020221
-  hi InactiveWindow guibg=#020221
+  hi NonText guifg=#36363a ctermfg=237 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
+  hi Normal guifg=#b4b4b9 ctermfg=249 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
+  hi ActiveWindow guibg=#1b1b20
+  hi InactiveWindow guibg=#1b1b20
 endfunction
 
 function! s:GoyoLeave()
