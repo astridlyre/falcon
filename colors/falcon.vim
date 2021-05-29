@@ -35,7 +35,7 @@ hi link AspVBSStatement Keyword
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#151521 ctermbg=234 gui=NONE cterm=NONE
 hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#787882 ctermbg=243 gui=NONE cterm=NONE
-hi CursorColumn guifg=NONE ctermfg=NONE guibg=#131323 ctermbg=233 gui=NONE cterm=NONE
+hi CursorColumn guifg=NONE ctermfg=NONE guibg=#1b1b20 ctermbg=233 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2F2F3A ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#B4B4B9 ctermfg=249 guibg=#2F2F3A ctermbg=236 gui=NONE cterm=NONE
 hi Directory guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -53,7 +53,7 @@ hi LineNr guifg=#57575E ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#f0e1ce ctermfg=224 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi NonText guifg=#36363A ctermfg=237 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
 hi Normal guifg=#B4B4B9 ctermfg=249 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
-hi PMenu guifg=#878791 ctermfg=102 guibg=#131323 ctermbg=233 gui=NONE cterm=NONE
+hi PMenu guifg=#878791 ctermfg=102 guibg=#1b1b20 ctermbg=233 gui=NONE cterm=NONE
 hi PMenuSel guifg=#000004 ctermfg=0 guibg=#FFC552 ctermbg=221 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuThumb guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
