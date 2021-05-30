@@ -542,7 +542,7 @@ hi link zshParentheses Delimiter
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
 
-  let g:terminal_ansi_colors[0] = '#000004'
+  let g:terminal_ansi_colors[0] = '#525258'
   let g:terminal_ansi_colors[1] = '#FF3600'
   let g:terminal_ansi_colors[2] = '#718E3F'
   let g:terminal_ansi_colors[3] = '#FFC552'
@@ -561,7 +561,7 @@ if exists('*term_setansicolors')
 endif
 
 if has('nvim')
-  let g:terminal_color_0 = '#000004'
+  let g:terminal_color_0 = '#525258'
   let g:terminal_color_1 = '#FF3600'
   let g:terminal_color_2 = '#718E3F'
   let g:terminal_color_3 = '#FFC552'
