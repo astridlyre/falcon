@@ -25,11 +25,11 @@ let Bold = ""
 if exists('g:falcon_bold')
   let Bold = "bold"
 endif
-
 let g:falcon_bold = get(g:, 'falcon_bold', 0)
+
 hi ALEErrorSign guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ALEWarningSign guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ALEInfoSign guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEInfoSign guifg=#525258 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link AspVBSVariableSimple Identifier
 hi link AspVBSStatement Keyword
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#151521 ctermbg=234 gui=NONE cterm=NONE
