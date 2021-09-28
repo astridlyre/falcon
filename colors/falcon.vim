@@ -265,25 +265,21 @@ hi link xmlEqual Operator
 hi xmlEndTag guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTagN guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTagName guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiagnosticsDefaultError guifg=#a82400 ctermfg=124 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiagnosticsDefaultWarning guifg=#c99c40 ctermfg=179 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiagnosticsDefaultInformation guifg=#525258 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiagnosticsDefaultHint guifg=#a1968a ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultError guifg=#a82400 ctermfg=124 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultWarning guifg=#c99c40 ctermfg=179 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultInformation guifg=#525258 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultHint guifg=#a1968a ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticDefaultError guifg=#a82400 ctermfg=124 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticDefaultWarn guifg=#c99c40 ctermfg=179 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticDefaultInfo guifg=#525258 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticDefaultHint guifg=#a1968a ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspReferenceRead guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi LspReferenceText guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi LspReferenceWrite guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi DiagnosticsVirtualTextError guifg=#a82400 ctermfg=124 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi DiagnosticsVirtualTextWarning guifg=#c99c40 ctermfg=179 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi DiagnosticsVirtualTextHint guifg=#a1968a ctermfg=246 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi DiagnosticsVirtualTextInformation guifg=#525258 ctermfg=243 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi DiagnosticsUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#a82400
-hi DiagnosticsUnderlineWarning guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#c99c40
-hi DiagnosticsUnderlineHint guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#a1968a
-hi DiagnosticsUnderlineInformation guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#525258
+hi DiagnosticVirtualTextError guifg=#a82400 ctermfg=124 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi DiagnosticVirtualTextWarn guifg=#c99c40 ctermfg=179 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi DiagnosticVirtualTextHint guifg=#a1968a ctermfg=246 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi DiagnosticVirtualTextInfo guifg=#525258 ctermfg=243 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi DiagnosticUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#a82400
+hi DiagnosticUnderlineWarn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#c99c40
+hi DiagnosticUnderlineHint guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#a1968a
+hi DiagnosticUnderlineInfo guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#525258
 hi LspDiagnosticsVirtualTextError guifg=#a82400 ctermfg=124 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi LspDiagnosticsVirtualTextWarning guifg=#c99c40 ctermfg=179 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi LspDiagnosticsVirtualTextHint guifg=#a1968a ctermfg=246 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
