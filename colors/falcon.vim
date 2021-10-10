@@ -51,9 +51,9 @@ hi SignColumn guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi IncSearch guifg=#020221 ctermfg=0 guibg=#BFDAFF ctermbg=153 gui=Bold cterm=Bold
 hi LineNr guifg=#57575E ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#f0e1ce ctermfg=224 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi NonText guifg=#36363A ctermfg=237 guibg=#22222a ctermbg=0 gui=NONE cterm=NONE
-hi Normal guifg=#B4B4B9 ctermfg=249 guibg=#22222a ctermbg=0 gui=NONE cterm=NONE
-hi PMenu guifg=#878791 ctermfg=102 guibg=#22222a ctermbg=233 gui=NONE cterm=NONE
+hi NonText guifg=#36363A ctermfg=237 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
+hi Normal guifg=#B4B4B9 ctermfg=249 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
+hi PMenu guifg=#878791 ctermfg=102 guibg=#1b1b20 ctermbg=233 gui=NONE cterm=NONE
 hi PMenuSel guifg=#000004 ctermfg=0 guibg=#FFC552 ctermbg=221 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuThumb guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -487,7 +487,7 @@ hi GitGutterChange guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE ct
 hi GitGutterDelete guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignatureMarkText guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Terminal guifg=#B4B4B9 ctermfg=249 guibg=#22222a ctermbg=0 gui=NONE cterm=NONE
+hi Terminal guifg=#B4B4B9 ctermfg=249 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
 hi titleEntry guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimCommentTitle guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi vimCommand guifg=#cfc1b2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
