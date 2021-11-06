@@ -547,11 +547,11 @@ hi link zshStringDelimiter Delimiter
 hi link zshDelimiter Delimiter
 hi link zshParentheses Delimiter
 hi MiniStatuslineModeNormal guifg=#020221 guibg=#FFC552
-hi MiniStatuslineModeInsert guifg=#FFFFFF guibg=#FF3600
-hi MiniStatuslineModeVisual guifg=#FFFFFF guibg=#635196
+hi MiniStatuslineModeInsert guifg=#020221 guibg=#FF3600
+hi MiniStatuslineModeVisual guifg=#020221 guibg=#635196
 hi MiniStatuslineModeReplace guifg=#020221 guibg=#FF761A
-hi MiniStatuslineModeCommand guifg=#FFFFFF guibg=#718E3F
-hi MiniStatuslineModeOther guifg=#FFFFFF guibg=#525258
+hi MiniStatuslineModeCommand guifg=#020221 guibg=#718E3F
+hi MiniStatuslineModeOther guifg=#020221 guibg=#525258
 hi MiniStatuslineDevinfo guifg=#B4B4B9 guibg=#282830
 hi MiniStatuslineFilename guifg=#B4B4B9 guibg=#343436
 hi MiniStatuslineFileinfo guifg=#B4B4B9 guibg=#282830
