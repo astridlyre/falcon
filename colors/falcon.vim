@@ -547,7 +547,7 @@ hi link zshStringDelimiter Delimiter
 hi link zshDelimiter Delimiter
 hi link zshParentheses Delimiter
 hi MiniStatuslineModeNormal guifg=#020221 guibg=#FFC552
-hi MiniStatuslineModeInsert guifg=#020221 guibg=#FF3600
+hi MiniStatuslineModeInsert guifg=#FFFFFF guibg=#FF3600
 hi MiniStatuslineModeVisual guifg=#FFFFFF guibg=#635196
 hi MiniStatuslineModeReplace guifg=#020221 guibg=#FF761A
 hi MiniStatuslineModeCommand guifg=#FFFFFF guibg=#718E3F
