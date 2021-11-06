@@ -546,6 +546,16 @@ hi link zshKeyword Keyword
 hi link zshStringDelimiter Delimiter
 hi link zshDelimiter Delimiter
 hi link zshParentheses Delimiter
+hi MiniStatuslineModeNormal guifg=#020221 guibg=#FFC552
+hi MiniStatuslineModeInsert guifg=#020221 guibg=#FF3600
+hi MiniStatuslineModeVisual guifg=#FFFFFF guibg=#635196
+hi MiniStatuslineModeReplace guifg=#020221 guibg=#FF761A
+hi MiniStatuslineModeCommand guifg=#FFFFFF guibg=#718E3F
+hi MiniStatuslineModeOther guifg=#FFFFFF guibg=#525258
+hi MiniStatuslineDevinfo guifg=#B4B4B9 guibg=#282830
+hi MiniStatuslineFilename guifg=#B4B4B9 guibg=#343436
+hi MiniStatuslineFileinfo guifg=#B4B4B9 guibg=#282830
+hi MiniStatuslineInactive guifg=#878791 guibg=#22222a
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
