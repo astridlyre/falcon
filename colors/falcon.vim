@@ -552,9 +552,9 @@ hi MiniStatuslineModeVisual guifg=#020221 guibg=#635196
 hi MiniStatuslineModeReplace guifg=#020221 guibg=#FF761A
 hi MiniStatuslineModeCommand guifg=#020221 guibg=#718E3F
 hi MiniStatuslineModeOther guifg=#020221 guibg=#343436
-hi MiniStatuslineDevinfo guifg=#B4B4B9 guibg=#525258
-hi MiniStatuslineFilename guifg=#B4B4B9 guibg=#343436
-hi MiniStatuslineFileinfo guifg=#B4B4B9 guibg=#525258
+hi MiniStatuslineDevinfo guifg=#B4B4B9 guibg=#343436
+hi MiniStatuslineFilename guifg=#B4B4B9 guibg=#28282D
+hi MiniStatuslineFileinfo guifg=#B4B4B9 guibg=#343436
 hi MiniStatuslineInactive guifg=#878791 guibg=#28282D
 hi MiniCursorword gui=underline
 hi MiniTablineCurrent guifg=#020221 guibg=#FFC552
