@@ -557,6 +557,13 @@ hi MiniStatuslineFilename guifg=#B4B4B9 guibg=#343436
 hi MiniStatuslineFileinfo guifg=#B4B4B9 guibg=#282830
 hi MiniStatuslineInactive guifg=#878791 guibg=#22222a
 hi MiniCursorword gui=underline
+hi MiniTablineCurrent guifg=#020221 guibg=#FFC552
+hi MiniTablineVisible guifg=#020221 guibg=#525258
+hi MiniTablineHidden guifg=#020221 guibg=#343436
+hi MiniTablineModifiedCurrent guifg=#020221 guibg=#FFC552
+hi MiniTablineModifiedVisible guifg=#020221 guibg=#525258
+hi MiniTablineModifiedHidden guifg=#020221 guibg=#343436
+hi MiniTablineFill guibg=#282830
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
