@@ -551,19 +551,19 @@ hi MiniStatuslineModeInsert guifg=#020221 guibg=#FF3600
 hi MiniStatuslineModeVisual guifg=#020221 guibg=#635196
 hi MiniStatuslineModeReplace guifg=#020221 guibg=#FF761A
 hi MiniStatuslineModeCommand guifg=#020221 guibg=#718E3F
-hi MiniStatuslineModeOther guifg=#020221 guibg=#525258
-hi MiniStatuslineDevinfo guifg=#B4B4B9 guibg=#282830
-hi MiniStatuslineFilename guifg=#B4B4B9 guibg=#343436
-hi MiniStatuslineFileinfo guifg=#B4B4B9 guibg=#282830
-hi MiniStatuslineInactive guifg=#878791 guibg=#22222a
+hi MiniStatuslineModeOther guifg=#020221 guibg=#343436
+hi MiniStatuslineDevinfo guifg=#B4B4B9 guibg=#525258
+hi MiniStatuslineFilename guifg=#B4B4B9 guibg=#525258
+hi MiniStatuslineFileinfo guifg=#B4B4B9 guibg=#525258
+hi MiniStatuslineInactive guifg=#878791 guibg=#28282D
 hi MiniCursorword gui=underline
 hi MiniTablineCurrent guifg=#020221 guibg=#FFC552
-hi MiniTablineVisible guifg=#020221 guibg=#525258
-hi MiniTablineHidden guifg=#020221 guibg=#282830
+hi MiniTablineVisible guifg=#B4B4B9 guibg=#525258
+hi MiniTablineHidden guifg=#B4B4B9 guibg=#343436
 hi MiniTablineModifiedCurrent guifg=#020221 guibg=#FFC552
-hi MiniTablineModifiedVisible guifg=#020221 guibg=#525258
-hi MiniTablineModifiedHidden guifg=#020221 guibg=#282830
-hi MiniTablineFill guibg=#22222a
+hi MiniTablineModifiedVisible guifg=#B4B4B9 guibg=#525258
+hi MiniTablineModifiedHidden guifg=#B4B4B9 guibg=#343436
+hi MiniTablineFill guibg=#28282D
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
