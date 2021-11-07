@@ -556,6 +556,7 @@ hi MiniStatuslineDevinfo guifg=#B4B4B9 guibg=#282830
 hi MiniStatuslineFilename guifg=#B4B4B9 guibg=#343436
 hi MiniStatuslineFileinfo guifg=#B4B4B9 guibg=#282830
 hi MiniStatuslineInactive guifg=#878791 guibg=#22222a
+hi MiniCursorword gui=underline
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
