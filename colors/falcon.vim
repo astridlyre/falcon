@@ -50,7 +50,7 @@ hi LineNr guifg=#57575E ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#f0e1ce ctermfg=224 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi NonText guifg=#36363A ctermfg=237 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
 hi Normal guifg=#B4B4B9 ctermfg=249 guibg=#1b1b20 ctermbg=0 gui=NONE cterm=NONE
-hi PMenu guifg=#878791 ctermfg=102 guibg=#1b1b20 ctermbg=233 gui=NONE cterm=NONE
+hi PMenu guifg=#878791 ctermfg=102 guibg=#202028 ctermbg=233 gui=NONE cterm=NONE
 hi PMenuSel guifg=#000004 ctermfg=0 guibg=#FFC552 ctermbg=221 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuThumb guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -339,8 +339,8 @@ hi mkdCodeDelimiter guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE c
 hi link mkdHeading Delimiter
 hi healthSuccess guifg=#020221 ctermfg=0 guibg=#859933 ctermbg=101 gui=NONE cterm=NONE
 hi healthError guifg=#020221 ctermfg=0 guibg=#FF3600 ctermbg=202 gui=NONE cterm=NONE
-hi NormalFloat guifg=NONE ctermfg=NONE guibg=#1E1E2F ctermbg=234 gui=NONE cterm=NONE
-hi FloatBorder guifg=#36363A ctermfg=237 guibg=#1E1E2F ctermbg=234 gui=NONE cterm=NONE
+hi NormalFloat guifg=NONE ctermfg=NONE guibg=#202028 ctermbg=234 gui=NONE cterm=NONE
+hi FloatBorder guifg=#36363A ctermfg=237 guibg=#202028 ctermbg=234 gui=NONE cterm=NONE
 hi NERDTreeCWD guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -502,7 +502,7 @@ hi TelescopeSelection guifg=#DFDFE5 ctermfg=254 guibg=#202028 ctermbg=234 gui=NO
 hi TelescopeSelectionCaret guifg=#FF761A ctermfg=208 guibg=#202028 ctermbg=234 gui=NONE cterm=NONE
 hi TelescopeMultiSelection guifg=#DFDFE5 ctermfg=254 guibg=#202028 ctermbg=234 gui=NONE cterm=NONE
 hi TelescopeNormal guifg=#787882 ctermfg=243 guibg=#202028 ctermbg=234 gui=NONE cterm=NONE
-hi TelescopePreviewNormal guifg=#B4B4B9 ctermfg=249 guibg=#1f1f26 ctermbg=234 gui=NONE cterm=NONE
+hi TelescopePreviewNormal guifg=#B4B4B9 ctermfg=249 guibg=#1b1b20 ctermbg=234 gui=NONE cterm=NONE
 hi tmuxCmds guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptsSet guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptions guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
