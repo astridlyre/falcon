@@ -124,7 +124,7 @@ hi cCustomFunc guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi cStatement guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cppSTLnamespace guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cppAccess guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cAnsiFunction guifg=#CFC1B2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cAnsiFunction guifg=#FFC552 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cRepeat guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cSpecial guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi cssVendor guifg=#CFC1B2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -518,9 +518,13 @@ hi link TSException Keyword
 hi link TSConstant Constant
 hi link TSConstBuiltin Boolean
 hi TSError guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSKeywordFunction guifg=#CFC1B2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSKeywordFunction guifg=#FFC552 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link twigVarDelim Delimiter
 hi link twigTagDelim Delimiter
+hi link TSBoolean Boolean
+hi link TSCharacter String
+hi link TSComment Comment
+hi link TSConditional Conditional
 hi twigString guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi twigOperator guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi twigTagBlock guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
