@@ -502,7 +502,7 @@ hi TelescopeSelection guifg=#DFDFE5 ctermfg=254 guibg=#202028 ctermbg=234 gui=NO
 hi TelescopeSelectionCaret guifg=#FF761A ctermfg=208 guibg=#202028 ctermbg=234 gui=NONE cterm=NONE
 hi TelescopeMultiSelection guifg=#DFDFE5 ctermfg=254 guibg=#202028 ctermbg=234 gui=NONE cterm=NONE
 hi TelescopeNormal guifg=#787882 ctermfg=243 guibg=#202028 ctermbg=234 gui=NONE cterm=NONE
-hi TelescopePreviewNormal guifg=#B4B4B9 ctermfg=249 guibg=#1b1b20 ctermbg=234 gui=NONE cterm=NONE
+hi TelescopePreviewNormal guifg=#B4B4B9 ctermfg=249 guibg=#202028 ctermbg=234 gui=NONE cterm=NONE
 hi tmuxCmds guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptsSet guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptions guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
