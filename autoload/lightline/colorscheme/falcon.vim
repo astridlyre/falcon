@@ -10,7 +10,7 @@
 if exists('g:lightline')
   let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
 
-  let s:p.normal.left = [[["#000004", 0], ["#dfdfe5", 254]], [["#d4d4d9", 248], ["#28282d", 241]], [["#787882", 248], ["#28282d", 241]]]
+  let s:p.normal.left = [[["#000004", 0], ["#dfdfe5", 254]], [["#dfdfe5", 248], ["#28282d", 241]], [["#787882", 248], ["#28282d", 241]]]
   let s:p.normal.right = [[["#000004", 0], ["#dfdfe5", 254]], [["#787882", 248], ["#28282d", 241]]]
   let s:p.normal.middle = [[["#57575e", 241], ["#28282d", 237]]]
   let s:p.inactive.left = [[["#57575e", 241], ["#28282d", 237], 'italic'], [["#5a5a60", 241], ["#28282d", 237], 'italic']]
